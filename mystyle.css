@@ -8,17 +8,7 @@ body{
     background-color: #D9C3ED;
 }
 
-#logo{ 
-	position:fixed; 
-	top:-80px; 
-	left:-40px; 
-} 
-@media only screen and (max-width: 600px) {
-    #logo {
-       top: -100px;
 
-    }
-}
 
 /*------------------------------------
 
@@ -26,16 +16,23 @@ Nav Bar
 
 --------------------------------------*/
 
-header{
-    margin: 0 auto;
-    text-align: center; 
-    
-
- }
-
-header nav li{
+.logo { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 20%;
+    align-content: left;
     display: inline-block;
-    margin: 50px auto;
+} 
+
+header {
+    text-align: center;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 2% auto;
+   
     
 }
 
@@ -84,7 +81,36 @@ p{
     font-size: 1.125rem;
 }
 
-aside{
+
+.home-container {
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+  }
+  
+  .grid-item {
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .aside {
+    grid-column: 1;
+    grid-row: 1;
     font-family: 'Roboto', sans-serif ;
     font-size: 1.125rem;
-}
+	Padding: 10%;
+  }
+  .main img {
+      padding: 0 2%;
+  }
+  
+  .main {
+    grid-column: 2;
+    grid-row: 1 ;
+  }
+
+
+
+    
+
