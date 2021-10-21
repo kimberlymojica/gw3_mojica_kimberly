@@ -10,9 +10,15 @@ body{
 
 #logo{ 
 	position:fixed; 
-	top:0; 
-	left:0; 
+	top:-80px; 
+	left:-40px; 
 } 
+@media only screen and (max-width: 600px) {
+    #logo {
+       top: -100px;
+
+    }
+}
 
 /*------------------------------------
 
