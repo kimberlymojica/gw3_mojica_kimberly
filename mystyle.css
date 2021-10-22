@@ -82,6 +82,7 @@ p{
     font-family: 'Roboto', sans-serif;
     width: 550px;
     font-size: 1.125rem;
+    font-weight: bold;
 }
 
 
@@ -101,6 +102,7 @@ p{
     grid-column: 1;
     grid-row: 1;
     font-family: 'Roboto', sans-serif ;
+    font-weight: bold;
     font-size: 1.125rem;
 	Padding: 10%;
   }
