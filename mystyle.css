@@ -26,14 +26,14 @@ Nav Bar
 } 
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header nav li {
     display: inline-block;
     margin: 2% auto;
-   
-    
 }
 
 header nav a{
@@ -85,6 +85,11 @@ p{
     font-weight: bold;
 }
 
+.homepic {
+    width: 28%;
+    margin: 0 auto;
+    display: flex;
+}
 
 .home-container {
     display: grid;
@@ -115,7 +120,32 @@ p{
     grid-row: 1 ;
   }
 
+/* cast page style   */
 
+.flexcontainer {
+    display: flex;
+}
 
+.cast {
+    width: 15%;
+    padding: 1rem;
+}
+
+.cast img {
+    width: 100%;
+}
+
+.cast h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    text-align: left;
+}
+.cast p {
+    width: 100%;
+    text-align: left;
+    padding: 1rem 0 0;
+    color: white;
+    font-size: 1.5rem;
+}
     
 
