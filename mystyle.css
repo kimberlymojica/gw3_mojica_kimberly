@@ -18,7 +18,7 @@ Nav Bar
 
 .logo { 
     margin: 0;
-    padding: 0 5% 0 0;
+    padding: 0 25px 0 0;
     border: 0;
 } 
 
@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2% 0 1% 0;
+    padding: 15px 0 25px 0;
 }
 
 header nav li {
@@ -41,7 +41,7 @@ header nav a{
     font-weight: bold;
     font-size: 2rem;
     color: white;
-    padding: 0 100px 0 20px;
+    padding: 0 25px 0 20px;
     text-decoration: overline;
     text-shadow: 1px 1px 2px grey, 0 0 1em black, 0 0 0.2em black;
     
@@ -167,6 +167,18 @@ MEDIA QUERIES
 
     h2 {
         text-align: left;
+    }
+
+    header {
+        padding: 2% 0 1% 0;
+    }
+
+    header nav a {
+        padding: 0 100px 0 20px;
+    }
+
+    .logo {
+        padding: 0 5% 0 0;
     }
 }
 
