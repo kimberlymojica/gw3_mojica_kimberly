@@ -58,6 +58,7 @@ INDEX
 h1{
     font-family: 'Permanent Marker', cursive; ;
     color: #FCEE22;
+    margin: 25px 0;
     text-align: center;
     font-size: 2.500rem;
     text-shadow: 1px 1px 2px grey, 0 0 1em black, 0 0 0.2em black;
@@ -67,12 +68,12 @@ h2{
     font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 1.400rem;
+    margin: 0 0 15px 0;
     text-shadow: 1px 1px 2px grey, 0 0 1em black, 0 0 0.2em black;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
-    width: 550px;
     font-size: 1.125rem;
     font-weight: bold;
 }
@@ -90,27 +91,41 @@ img {
 
 .home-container {
     display: grid;
-    grid-gap: 5px;
-    padding: 5px;
+    padding: 15px;
+    grid-gap: 25px;
     grid-template-columns: 1fr 3fr;
+}
+
+  .home-container img {
+      padding: 0 0 15px 0;
   }
   
-  .grid-item {
+.grid-item {
     text-align: left;
     padding: 10px;
     font-size: 30px;
-  }
+}
   
-  .aside {
-    grid-column: 1;
-    grid-row: 1;
-    font-family: 'Roboto', sans-serif ;
-    font-weight: bold;
-    font-size: 1.125rem;
-  }
-  .main img {
-      padding: 0 25px 15px 0;
-  }
+.aside {
+grid-column: 1;
+grid-row: 1;
+font-family: 'Roboto', sans-serif ;
+font-weight: bold;
+font-size: 1.125rem;
+}
+
+.main img {
+    padding: 0 25px 15px 0;
+}
+
+#reunion-post img {
+    float: left;
+    width: 30%;
+}
+
+#jennifer-post img {
+    width: 60%;
+}
 
 /* cast page style   */
 
