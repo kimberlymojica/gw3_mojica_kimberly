@@ -69,8 +69,11 @@ h2{
     color: white;
     font-size: 1.400rem;
     margin: 0 0 15px 0;
-    text-align: center;
     text-shadow: 1px 1px 2px grey, 0 0 1em black, 0 0 0.2em black;
+}
+
+#home h2 {
+    text-align: center;
 }
 
 p{
@@ -115,20 +118,23 @@ font-size: 1.125rem;
     display: flex;
 }
 
+.cast-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    padding: 15px 25px;
+}
+
 .cast {
-    width: 15%;
-    padding: 1rem;
+    text-align: center;
 }
 
 .cast h2 {
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
-    text-align: left;
 }
 .cast p {
     width: 100%;
-    text-align: left;
-    padding: 1rem 0 0;
     color: white;
     font-size: 1.5rem;
 }
@@ -161,7 +167,7 @@ MEDIA QUERIES
         padding: 0;
     }
 
-    h2 {
+    #home h2 {
         text-align: left;
     }
 
@@ -169,17 +175,27 @@ MEDIA QUERIES
         padding: 2% 0 1% 0;
     }
 
-    header nav a {
-        padding: 0 100px 0 20px;
-    }
-
     .logo {
         padding: 0 5% 0 0;
+    }
+
+    .cast-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media all and (min-width: 812px) {
     .home-container {
         padding: 15px 25px;
+    }
+}
+
+@media all and (min-width: 900px) {
+    header nav a {
+        padding: 0 75px 0 20px;
+    }
+
+    .cast-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
