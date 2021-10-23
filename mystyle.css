@@ -18,17 +18,16 @@ Nav Bar
 
 .logo { 
     margin: 0;
-    padding: 0;
+    padding: 0 5% 0 0;
     border: 0;
     width: 20%;
-    align-content: left;
-    display: inline-block;
 } 
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2% 0 1% 0;
 }
 
 header nav li {
@@ -68,7 +67,6 @@ h1{
 h2{
     font-family: 'Permanent Marker', cursive;
     color: white;
-    text-align: center;
     font-size: 1.400rem;
     text-shadow: 1px 1px 2px grey, 0 0 1em black, 0 0 0.2em black;
 }
@@ -78,6 +76,11 @@ p{
     width: 550px;
     font-size: 1.125rem;
     font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 .homepic {
@@ -107,7 +110,7 @@ p{
     font-size: 1.125rem;
   }
   .main img {
-      padding: 0 2% 0 0;
+      padding: 0 25px 15px 0;
   }
 
 /* cast page style   */
