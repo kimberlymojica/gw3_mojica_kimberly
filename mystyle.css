@@ -49,11 +49,6 @@ header nav a{
     
 }
 
-header nav a:visited{
-
-
-}
-
 header nav a:hover{
     color: #29ABE2;
 }
@@ -95,6 +90,7 @@ p{
     display: grid;
     grid-gap: 5px;
     padding: 5px;
+    grid-template-columns: 1fr 3fr;
   }
   
   .grid-item {
@@ -109,15 +105,9 @@ p{
     font-family: 'Roboto', sans-serif ;
     font-weight: bold;
     font-size: 1.125rem;
-	Padding: 10%;
   }
   .main img {
-      padding: 0 2%;
-  }
-  
-  .main {
-    grid-column: 2;
-    grid-row: 1 ;
+      padding: 0 2% 0 0;
   }
 
 /* cast page style   */
