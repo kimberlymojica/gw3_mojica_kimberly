@@ -294,6 +294,10 @@ MEDIA QUERIES
 }
 
 @media all and (min-width: 1285px) {
+    .home-container {
+        grid-template-columns: 1fr 3fr;
+    }
+
     #trivia section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
